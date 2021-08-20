@@ -6,7 +6,8 @@
 
 ## Project Description
 
-Confidant is a journaling app where users can jot down their thoughts anytime. Journaling can be a powerful tool to imporve mental health and Confidant is meant to be a convenient way to "make space in your brain" on-the-go. The menu, which is vailable on every page, allows users to create new entries and view their journal feed. Users also have the ability to edit or delete any past journal entries.
+Confidant is a journaling app where users can jot down their thoughts anytime. Journaling can be a powerful tool to imporve mental health and Confidant is meant to be a convenient way to "make space in your brain" on-the-go. The menu, which is available on every page, allows users to create new entries and view their journal feed. Users also have the ability to edit or delete any past journal entries.
+
 
 ## Wireframes
 The wireframe displays the desktop view of each page of the app, as well as mobile-friendly version of each page. The homepage contains the brand logo, slogan, and a sign up form, as well as a menu, linking to the new entry form and the journal feed. The form has a submit button which also takes users to the new entry form. The add entry button on the new entry form submits the new entry to the journal feed. From there, users can make edits or delete entries.
