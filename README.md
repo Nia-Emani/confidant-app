@@ -12,6 +12,7 @@ Confidant is a journaling app where users can jot down their thoughts anytime. J
 ## Wireframes
 The wireframe displays the desktop view of each page of the app, as well as mobile-friendly version of each page. The homepage contains the brand logo, slogan, and a sign up form, as well as a menu, linking to the new entry form and the journal feed. The form has a submit button which also takes users to the new entry form. The add entry button on the new entry form submits the new entry to the journal feed. From there, users can make edits or delete entries.
 
+
 ![image](https://user-images.githubusercontent.com/83891591/130286570-1cda2f11-1ce4-4046-bfaa-2c70bd3b607d.png)
 
 
