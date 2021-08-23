@@ -54,9 +54,9 @@ Confidant API https://api.airtable.com/v0/appLQZFM8iMgpmtxd/confidant
 |  Day | Deliverable | Status
 |---|---| ---|
 |August 19| Prompt / Wireframes / Repository / Airtable Setup | Complete
-|August 20| Component Hierarchy / Project Approval / Component Creation | Incomplete
-|August 23 - 24| Pseudocode / actual code / CSS | Incomplete
-|August 25| Finish CSS / polish site  | Incomplete
+|August 20| Component Hierarchy / Project Approva | Incomplete
+|August 23 - 24| Build out components/ Finish MVP | Incomplete
+|August 25| CSS / Post MVP  | Incomplete
 |August 26| Confirm MVP Completion / Post MVPs  | Incomplete
 |August 6| Presentations | Incomplete
 
