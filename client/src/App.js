@@ -11,7 +11,7 @@ function App() {
         <input
           id='name'
           type='text'
-          placeholder='firstname' />
+          placeholder='first name' />
         <input
           id='email'
           type='email'
