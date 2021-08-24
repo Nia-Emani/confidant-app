@@ -1,3 +1,6 @@
+//To Do
+//- Make axios call for edits
+
 import { useParams } from "react-router-dom"
 import axios from 'axios'
 import { useState, useEffect } from 'react'
@@ -8,6 +11,16 @@ function NewEntry(props) {
   const [date, setDate] = useState('')
 
   const params = useParams()
+
+  useEffect(() => {
+    if (params.id && props.entries.length > 0) {
+      const entryToEdit = props.entries.find(entry => params.id === entry.id)
+      if (entryToEdit) {
+        setDate(entryToEdit.fields.date)
+        setThought(entryToEdit.fields.thought)
+      }
+    }
+  }, [params.id, props.entries])
 
   const handleSubmit = async (event) => {
     event.preventDefault()
