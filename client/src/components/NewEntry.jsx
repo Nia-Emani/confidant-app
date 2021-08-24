@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom"
+import { useParams, Link } from "react-router-dom"
 import axios from 'axios'
 import { useState, useEffect } from 'react'
 import { baseURL, config } from '../services'
@@ -30,27 +30,25 @@ function NewEntry(props) {
     } else {
       await axios.post(baseURL, { fields: newThought }, config)
     }
-    props.setToggleFetch(prevToggleFetch => !prevToggleFetch)
+    // props.setToggleFetch(prevToggleFetch => !prevToggleFetch)
   }
 
   return (
     <div className="new-entry">
       <h1>Hi there!<br />What's on your mind?</h1>
       <form onSubmit={handleSubmit}>
-        <label htmlFor='date'>Date</label>
         <input
           id='date'
           type='text'
+          placeholder='date'
           onChange={e => setDate(e.target.value)}
-          value={date}
-        />
-        <label htmlFor='thought'>Jot down your thoughts here</label>
-        <input
+          value={date} />
+        <textarea
           id='thought'
           type='text'
+          placeholder='jot down your thoughts here'
           onChange={e => setThought(e.target.value)}
-          value={thought}
-        />
+          value={thought} />
         <button type="submit" className="new-entry-button">add entry</button>
       </form>
     </div>
