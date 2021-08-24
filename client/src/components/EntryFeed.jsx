@@ -3,18 +3,24 @@
 
 
 import Entry from './Entry'
+import { Link } from 'react-router-dom'
 
 function EntryFeed(props) {
 
   return (
-    <div>
+    <article>
       <h1>Journal Feed</h1>
       {props.entries.map((entry, index) => {
         return (
-          <Entry key={index} entry={entry} setToggleFetch={props.setToggleFetch} />
+          <article key={index}>
+            <Entry entry={entry} setToggleFetch={props.setToggleFetch} />
+            <button className="edit-button">
+              <Link to={`/edit/${entry.id}`}>Edit</Link>
+            </button>
+          </article>
         )
       })}
-    </div>
+    </article>
   )
 }
 

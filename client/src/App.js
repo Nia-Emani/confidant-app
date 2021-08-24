@@ -67,6 +67,7 @@ function App() {
         <EntryFeed entries={entries} setToggleFetch={setToggleFetch} />
       </Route>
       <Route path="/edit/:id">
+        <NewEntry entries={entries} />
       </Route>
     </div >
   );

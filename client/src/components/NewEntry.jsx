@@ -1,7 +1,7 @@
 //To Do
 //- Make axios call for edits
 
-import { useParams } from "react-router-dom"
+import { useParams } from 'react-router-dom'
 import axios from 'axios'
 import { useState, useEffect } from 'react'
 import { baseURL, config } from '../services'
@@ -16,6 +16,7 @@ function NewEntry(props) {
     if (params.id && props.entries.length > 0) {
       const entryToEdit = props.entries.find(entry => params.id === entry.id)
       if (entryToEdit) {
+        console.log(entryToEdit)
         setDate(entryToEdit.fields.date)
         setThought(entryToEdit.fields.thought)
       }
@@ -37,7 +38,7 @@ function NewEntry(props) {
   }
 
   return (
-    <div className="new-entry">
+    <article className="new-entry">
       <h1>Hi there!<br />What's on your mind?</h1>
       <form onSubmit={handleSubmit}>
         <input
@@ -48,13 +49,12 @@ function NewEntry(props) {
           value={date} />
         <textarea
           id='thought'
-          type='text'
           placeholder='jot down your thoughts here'
           onChange={e => setThought(e.target.value)}
           value={thought} />
         <button type="submit" className="new-entry-button">add entry</button>
       </form>
-    </div>
+    </article>
 
   )
 }
