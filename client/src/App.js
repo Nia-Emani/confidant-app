@@ -1,6 +1,5 @@
-
 //To Do
-//- Add nav bar elements
+//- Add logo to nav bar
 
 
 import { Link, Route } from 'react-router-dom'
@@ -28,6 +27,9 @@ function App() {
   return (
     <div className="App">
       <nav>
+        <h3>
+          <Link to="/menu">Menu</Link>
+        </h3>
       </nav>
       <Route path="/" exact>
         <a href="https://lh3.googleusercontent.com/7m2ce9jVOrgZ-OOWvaSfgz95LTqnM7DdSQYH3J71RwCB5O5bu3-Q2E6ahO8Tw_WAPJE5vQIO5qpzUDcRAL23A9vzO7mSorENinjzel8LOAqYjyU0xf39UcM7mOFvrKC39Kl7et_wrEQ=w2400?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/7m2ce9jVOrgZ-OOWvaSfgz95LTqnM7DdSQYH3J71RwCB5O5bu3-Q2E6ahO8Tw_WAPJE5vQIO5qpzUDcRAL23A9vzO7mSorENinjzel8LOAqYjyU0xf39UcM7mOFvrKC39Kl7et_wrEQ=w500-h315-p-k" alt="Confidant App logo" /> </a>

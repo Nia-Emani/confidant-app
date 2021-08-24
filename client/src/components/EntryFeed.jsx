@@ -1,3 +1,7 @@
+//To Do
+//- Add edit and delete buttons
+
+
 import Entry from './Entry'
 
 function EntryFeed(props) {
@@ -15,6 +19,3 @@ function EntryFeed(props) {
 }
 
 export default EntryFeed
-
-//To Do
-//- Add edit and delete buttons

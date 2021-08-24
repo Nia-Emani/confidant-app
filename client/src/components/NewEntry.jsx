@@ -9,16 +9,6 @@ function NewEntry(props) {
 
   const params = useParams()
 
-  // useEffect(() => {
-  //   if (params.id && props.entries.length > 0) {
-  //     const entryToEdit = props.entries.find(entry => params.id === entry.id)
-  //     if (entryToEdit) {
-  //       setDate(entryToEdit.fields.date)
-  //       setThought(entryToEdit.fields.thought)
-  //     }
-  //   }
-  // }, [params.id, props.entries])
-
   const handleSubmit = async (event) => {
     event.preventDefault()
     const newThought = {
