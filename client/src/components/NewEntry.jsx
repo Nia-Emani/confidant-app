@@ -1,10 +1,8 @@
-//To Do
-//- Make axios call for edits
-
 import { useParams } from 'react-router-dom'
 import axios from 'axios'
 import { useState, useEffect } from 'react'
 import { baseURL, config } from '../services'
+import { Link } from 'react-router-dom'
 
 function NewEntry(props) {
   const [thought, setThought] = useState('')
@@ -52,7 +50,7 @@ function NewEntry(props) {
           placeholder='jot down your thoughts here'
           onChange={e => setThought(e.target.value)}
           value={thought} />
-        <button type="submit" className="new-entry-button">add entry</button>
+        <button type="submit" className="add-button">add entry</button>
       </form>
     </article>
 

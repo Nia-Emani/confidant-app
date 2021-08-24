@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 function Menu(props) {
   return (
-    <div>
+    <div className="directory">
       <h1>Menu</h1>
       <Link to="/feed">Journal Feed</Link>
       <br />
