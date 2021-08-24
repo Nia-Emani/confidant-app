@@ -8,6 +8,7 @@ import { useState, useEffect } from 'react';
 import './App.css';
 import EntryFeed from './components/EntryFeed';
 import NewEntry from './components/NewEntry'
+import Menu from './components/Menu'
 import axios from 'axios'
 import { baseURL, config } from './services'
 
@@ -56,6 +57,9 @@ function App() {
       </Route>
       <Route path="/new">
         <NewEntry />
+      </Route>
+      <Route path="/menu">
+        <Menu />
       </Route>
       <Route path="/feed">
         <EntryFeed entries={entries} setToggleFetch={setToggleFetch} />

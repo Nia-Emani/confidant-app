@@ -1,12 +1,6 @@
-import axios from 'axios'
-import { useEffect, useState } from 'react'
-import { baseURL, config } from '../services'
 import Entry from './Entry'
-import { Route } from 'react-router-dom'
 
 function EntryFeed(props) {
-
-
 
   return (
     <div>
@@ -23,5 +17,4 @@ function EntryFeed(props) {
 export default EntryFeed
 
 //To Do
-//- Render default journal entry
 //- Add edit and delete buttons

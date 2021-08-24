@@ -1,4 +1,4 @@
-import { useParams, Link } from "react-router-dom"
+import { useParams } from "react-router-dom"
 import axios from 'axios'
 import { useState, useEffect } from 'react'
 import { baseURL, config } from '../services'
@@ -10,14 +10,14 @@ function NewEntry(props) {
   const params = useParams()
 
   // useEffect(() => {
-  //   if (params.id && props.thoughts.length > 0) {
-  //     const thoughtToEdit = props.thoughts.find(thought => params.id === thought.id)
-  //     if (thoughtToEdit) {
-  //       setDate(thoughtToEdit.fields.date)
-  //       setThought(thoughtToEdit.fields.thought)
+  //   if (params.id && props.entries.length > 0) {
+  //     const entryToEdit = props.entries.find(entry => params.id === entry.id)
+  //     if (entryToEdit) {
+  //       setDate(entryToEdit.fields.date)
+  //       setThought(entryToEdit.fields.thought)
   //     }
   //   }
-  // }, [params.id, props.thoughts])
+  // }, [params.id, props.entries])
 
   const handleSubmit = async (event) => {
     event.preventDefault()
