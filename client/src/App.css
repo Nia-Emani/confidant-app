@@ -177,7 +177,18 @@ button{
     h1{
       font-size: 40px;
     }
-    .directory-links{
+    .button-container{
+      display: flex;
+      flex-direction: column;
+      max-width: 200px;
+      margin: auto;
+      min-height: 150px;
+      justify-content: space-around;
+    }
+    .directory-buttons{
+      border-color: #c4ebf1;
+      border-radius: 4px;
       font-size: 28px;
-      color: blue
+      background-color: #89C7e7;
+      font-family: 'Quicksand', sans-serif;
     }

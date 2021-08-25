@@ -2,12 +2,17 @@ import { Link } from 'react-router-dom'
 
 function Menu(props) {
   return (
-    <div className="directory">
+    <article className="directory">
       <h1>Menu</h1>
-      <Link to="/feed" className="directory-links">Journal Feed</Link>
-      <br />
-      <Link to="/new" className="directory-links">New Entry</Link>
-    </div>
+      <div className="button-container">
+        <button className="directory-buttons">
+          <Link to="/feed" >Journal Feed</Link>
+        </button>
+        <button className="directory-buttons">
+          <Link to="/new">New Entry</Link>
+        </button>
+      </div>
+    </article>
   )
 }
 
