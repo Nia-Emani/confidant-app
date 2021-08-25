@@ -1,17 +1,28 @@
 body{
   font-family: 'Quicksand', sans-serif;
   text-align: center;
+  color: grey;
 }
 .nav-bar{
   background-color: #ADD8E5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 200px;
 }
-
+.menu-link{
+  color: grey;
+  padding-right: 15px;
+}
 
 /*  ================
       Sign Up Page
     ================ */
 .signup-form{
-  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  max-width: 25%;
+  margin: 0 auto;
 }
 
 
@@ -19,7 +30,7 @@ body{
       Menu
     ======== */
 .directory{
-  font-size: 34px;
+  font-size: 28px;
 }
 h1{
   font-size: 40px;
@@ -30,8 +41,16 @@ h1{
       Feed
     ======== */
 .entry-container{
-  border: solid 3px;
-  margin: 30px;
-  padding: 0 0 20px;
+  /* border: solid 3px black; */
+  padding: 20px;
   text-align: left;
+  max-width: 50%;
+  margin: 0 auto;
+}
+.entry-content{
+  border: 3px #ADD8E5 solid;
+  padding: 0 20px
+}
+.entry-buttons{
+  text-align: right;
 }

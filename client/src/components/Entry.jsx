@@ -13,13 +13,17 @@ function Entry(props) {
 
   return (
     <>
-      <p>{date}</p>
-      <p>{thought}</p>
-      <button onClick={handleDelete}>Delete
-      </button>
-      <button className="edit-button">
-        <Link to={`/edit/${props.entry.id}`}>Edit</Link>
-      </button>
+      <article className="entry-content">
+        <p className="date">{date}</p>
+        <p className="thought">{thought}</p>
+      </article>
+      <article className="entry-buttons">
+        <button onClick={handleDelete}>Delete
+        </button>
+        <button>
+          <Link to={`/edit/${props.entry.id}`}>Edit</Link>
+        </button>
+      </article>
     </>
 
   )

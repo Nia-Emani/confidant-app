@@ -1,14 +1,17 @@
-import { useParams } from 'react-router-dom'
+import { useParams, useHistory } from 'react-router-dom'
 import axios from 'axios'
 import { useState, useEffect } from 'react'
 import { baseURL, config } from '../services'
-import { Link } from 'react-router-dom'
+
 
 function NewEntry(props) {
   const [thought, setThought] = useState('')
   const [date, setDate] = useState('')
 
   const params = useParams()
+  const history = useHistory()
+
+  const { setToggleFetch } = props
 
   useEffect(() => {
     if (params.id && props.entries.length > 0) {
@@ -32,7 +35,8 @@ function NewEntry(props) {
     } else {
       await axios.post(baseURL, { fields: newThought }, config)
     }
-    // props.setToggleFetch(prevToggleFetch => !prevToggleFetch)
+    setToggleFetch((prevToggleFetch) => !prevToggleFetch)
+    history.push("/feed")
   }
 
   return (
