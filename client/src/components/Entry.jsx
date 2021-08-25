@@ -18,9 +18,9 @@ function Entry(props) {
         <p className="thought">{thought}</p>
       </article>
       <article className="entry-buttons">
-        <button onClick={handleDelete}>Delete
+        <button className="delete-button" onClick={handleDelete}>Delete
         </button>
-        <button>
+        <button className="edit-button">
           <Link to={`/edit/${props.entry.id}`}>Edit</Link>
         </button>
       </article>

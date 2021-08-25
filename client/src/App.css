@@ -79,19 +79,8 @@ body{
 .thought{
   height: 100px;
   border-radius: 4px;
-  border: 2px grey solid;
   font-family: 'Quicksand', sans-serif;
-}
-
-
-/*  ========
-      Menu
-    ======== */
-.directory{
-  font-size: 28px;
-}
-h1{
-  font-size: 40px;
+  padding-left: 20px;
 }
 
 
@@ -107,8 +96,34 @@ h1{
 }
 .entry-content{
   border: 3px #ADD8E5 solid;
+  border-radius: 4px;
   padding: 0 20px
 }
 .entry-buttons{
   text-align: right;
+  padding-top: 5px;
 }
+.delete-button, .edit-button{
+  color: white;
+  border-color: #c4ebf1;
+  background-color: #89C7e7;
+  height: 30px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight:bolder;
+}
+.delete-button{
+  margin-right: 5px;
+}
+
+
+/*  ========
+      Menu
+    ======== */
+    .directory{
+      font-size: 28px;
+    }
+    h1{
+      font-size: 40px;
+    }
