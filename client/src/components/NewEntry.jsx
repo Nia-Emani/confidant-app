@@ -55,7 +55,7 @@ function NewEntry(props) {
         <textarea
           id='thought'
           className="thought"
-          placeholder='jot down your thoughts here'
+          placeholder='add your thoughts here'
           onChange={e => setThought(e.target.value)}
           value={thought} />
         <button type="submit" className="add-button">add entry</button>
