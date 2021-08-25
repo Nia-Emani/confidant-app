@@ -1,6 +1,13 @@
-import { Link } from 'react-router-dom'
+import { useHistory } from 'react-router-dom'
 
 function LandingPage(props) {
+  let history=useHistory()
+const handleSubmit = event => {
+  event.preventDefault()
+  console.log("buttonClicked")
+  history.push('/new')
+}
+
   return (
     <article className="content-container">
       <div className="logo-container">
@@ -10,7 +17,7 @@ function LandingPage(props) {
       </div>
       <div className="signup-container">
         <label htmlFor='sign up form' className='signup-label'>sign up</label>
-        <form className="signup-form">
+        <form className="signup-form" onSubmit={handleSubmit}>
           <input
             id='name'
             className='signup-input'
@@ -31,8 +38,8 @@ function LandingPage(props) {
             className='signup-input'
             type='password'
             placeholder='confirm password' />
-          <button className="start-button">
-            <Link to="/new">start journaling</Link>
+          <button className="start-button" type="submit">
+            start journaling
           </button>
         </form>
       </div>

@@ -4,9 +4,9 @@ function Menu(props) {
   return (
     <div className="directory">
       <h1>Menu</h1>
-      <Link to="/feed">Journal Feed</Link>
+      <Link to="/feed" className="directory-links">Journal Feed</Link>
       <br />
-      <Link to="/new">New Entry</Link>
+      <Link to="/new" className="directory-links">New Entry</Link>
     </div>
   )
 }
