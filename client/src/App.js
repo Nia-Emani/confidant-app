@@ -25,7 +25,7 @@ function App() {
     <div className="App">
       <nav className="nav-bar">
         <Link to="/">
-          <img src="https://lh3.googleusercontent.com/hVqm3nI9V53nmcIdxYAnO9aOMD-z2ouES6hPP_MfhnpKBQStvjn8qACdRbBxIejzxoKuEhltY7Jf6Stc3R33r5piXnusGaqaOJ3ATqbCw4zQLbHEjY8v9YoaqSg0lugBEl9YWkrM1aA=s75-p-k" alt="Confidant App logo" />
+          <img src="https://lh3.googleusercontent.com/GnXScSz2Dgy4IoLvaovbGSAS5jgF3XwyFkv8VScWu9JDBqAb5tbuwmFIMlNIbN09U8OszbZV38LAtlxfFPXWyUjwYwxfE24X61xMoe1JdO61cMPS9WSJvVsGTTGIV89QHR0HpB4PWjg=w1920-h1080" alt="Confidant App logo" />
         </Link>
         <h3 className="menu-link">
           <Link to="/menu">Menu</Link>
