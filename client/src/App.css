@@ -15,15 +15,51 @@ body{
   padding-right: 15px;
 }
 
+
 /*  ================
-      Sign Up Page
+      Landing Page
     ================ */
+.large-logo{
+  padding: 30px;
+}
+.slogan{
+  font-size: 30px;
+}
+.signup-label{
+  color: #89C7e7;
+  font-weight: bolder;
+}
 .signup-form{
   display: flex;
   flex-direction: column;
   max-width: 25%;
   margin: 0 auto;
+  min-height: 200px;
+  justify-content: space-evenly;
 }
+.signup-label{
+  font-size: 22px;
+}
+.signup-input{
+  height: 25px;
+  border-radius: 4px;
+  font-family: 'Quicksand', sans-serif;
+}
+.start-button{
+  border-color: #c4ebf1;
+  background-color: #89C7e7;
+  height: 30px;
+  border-radius: 4px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight:bolder;
+}
+
+
+/*  =================
+      New Entry Page
+    ================= */
+
+
 
 
 /*  ========

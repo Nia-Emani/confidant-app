@@ -41,7 +41,7 @@ function NewEntry(props) {
 
   return (
     <article className="new-entry">
-      <h1>Hi there!<br />What's on your mind?</h1>
+      <h1 className="greeting">Hi there!<br /><span className="prompt">What's on your mind?</span></h1>
       <form onSubmit={handleSubmit}>
         <input
           id='date'
