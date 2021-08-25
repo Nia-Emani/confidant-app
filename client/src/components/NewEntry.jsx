@@ -41,16 +41,20 @@ function NewEntry(props) {
 
   return (
     <article className="new-entry">
-      <h1 className="greeting">Hi there!<br /><span className="prompt">What's on your mind?</span></h1>
-      <form onSubmit={handleSubmit}>
+      <div className="newentry-heading">
+        <h1 className="greeting">Hi there!<br /><span className="prompt">What's on your mind?</span></h1>
+      </div>
+      <form className="newentry-form" onSubmit={handleSubmit}>
         <input
           id='date'
+          className="date"
           type='text'
           placeholder='date'
           onChange={e => setDate(e.target.value)}
           value={date} />
         <textarea
           id='thought'
+          className="thought"
           placeholder='jot down your thoughts here'
           onChange={e => setThought(e.target.value)}
           value={thought} />

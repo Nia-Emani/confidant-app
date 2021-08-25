@@ -40,16 +40,18 @@ body{
 .signup-label{
   font-size: 22px;
 }
-.signup-input{
+.signup-input, .date{
   height: 25px;
   border-radius: 4px;
   font-family: 'Quicksand', sans-serif;
 }
-.start-button{
+.start-button, .add-button{
+  color: white;
   border-color: #c4ebf1;
   background-color: #89C7e7;
   height: 30px;
   border-radius: 4px;
+  font-size: 16px;
   font-family: 'Quicksand', sans-serif;
   font-weight:bolder;
 }
@@ -58,8 +60,28 @@ body{
 /*  =================
       New Entry Page
     ================= */
+.greeting{
+  font-size: 30px;
+  padding-top: 100px;
+}
+.prompt{
+  font-size: 34px;
+}
+.newentry-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 25%;
+  margin: 0 auto;
+  min-height: 300px;
+  justify-content: space-evenly;
+}
 
-
+.thought{
+  height: 100px;
+  border-radius: 4px;
+  border: 2px grey solid;
+  font-family: 'Quicksand', sans-serif;
+}
 
 
 /*  ========
