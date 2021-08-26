@@ -33,11 +33,11 @@ button{
     ================ */
 .content-container{
   display: flex;
-    max-width: 55%;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    margin: 100px auto;
+  max-width: 55%;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px auto;
 }
 .logo-container{
   display: flex;
@@ -48,7 +48,7 @@ button{
   flex-direction: column;
   min-width: 300px;
   min-height: 300px;
-  padding-top: 15px;
+  padding-bottom: 20px;
 }
 
 
@@ -110,23 +110,27 @@ button{
   display: flex;
   flex-direction: column;
   max-width: 25%;
-  margin: 0 auto;
+  margin: 50px auto;
   min-height: 300px;
   justify-content: space-evenly;
 }
-.date{
+.newdate{
   height: 40px;
-  width: 300px;
+  width: 150px;
   padding-left: 15px;
+  border: 2px lightgrey solid;
+  border-radius: 4px;
+  border-style: inset;
   font-family: 'Quicksand', sans-serif;
   font-size: 16px;
-  font-style: italic;
 }
-.thought{
+.newthought{
   height: 100px;
-  border-radius: 4px;
-  font-family: 'Quicksand', sans-serif;
   padding-left: 15px;
+  border: 2px lightgrey solid;
+  border-radius: 4px;
+  border-style: inset;
+  font-family: 'Quicksand', sans-serif;
   font-size: 16px;
 }
 .add-button{
@@ -143,6 +147,14 @@ button{
 /*  ========
       Feed
     ======== */
+.newentry-button{
+  margin-bottom: 30px;
+  border-color: #c4ebf1;
+  border-radius: 4px;
+  font-size: 20px;
+  background-color: #89C7e7;
+  font-family: 'Quicksand', sans-serif;
+}
 .entry-container{
   /* border: solid 3px black; */
   padding: 20px;
@@ -153,6 +165,7 @@ button{
 .entry-content{
   border: 3px #ADD8E5 solid;
   border-radius: 4px;
+  border-style: inset;
   padding: 0 20px;
   display: flex;
   flex-direction: column;
@@ -198,8 +211,6 @@ font-size: 40px;
       font-family: 'Quicksand', sans-serif;
     }
 
-
-/*  ========
-      Menu
-    ======== */
-
+/*  =================
+      Media Queries
+    ================= */

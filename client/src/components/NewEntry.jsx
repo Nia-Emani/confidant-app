@@ -47,14 +47,14 @@ function NewEntry(props) {
       <form className="newentry-form" onSubmit={handleSubmit}>
         <input
           id='date'
-          className="date"
+          className="newdate"
           type='text'
           placeholder='date'
           onChange={e => setDate(e.target.value)}
           value={date} />
         <textarea
           id='thought'
-          className="thought"
+          className="newthought"
           placeholder='add your thoughts here'
           onChange={e => setThought(e.target.value)}
           value={thought} />
