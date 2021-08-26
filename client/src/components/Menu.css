@@ -1,0 +1,30 @@
+.directory{
+  margin-top: 100px;
+}
+h1{
+font-size: 40px;
+}
+.button-container{
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  margin: auto;
+  min-height: 150px;
+  justify-content: space-around;
+}
+.directory-buttons{
+  border-color: #c4ebf1;
+  border-radius: 4px;
+  font-size: 28px;
+  background-color: #89C7e7;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+@media screen and (max-width: 1025px) {
+  .directory-buttons{
+    font-size: 22px;
+    width: 175px;
+    align-self: center;
+  }
+} 

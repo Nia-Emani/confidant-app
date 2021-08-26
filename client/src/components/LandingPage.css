@@ -63,9 +63,6 @@
 }
 
 @media screen and (max-width: 1025px) {
-  .nav-bar{
-    padding: 0 5px
-  }
   .content-container {
     flex-direction: column;
     margin: 0 auto;
