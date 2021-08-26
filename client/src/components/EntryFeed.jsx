@@ -1,5 +1,6 @@
 import Entry from './Entry'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import './EntryFeed.css'
 
 function EntryFeed(props) {
 

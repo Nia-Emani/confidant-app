@@ -31,51 +31,6 @@ button{
 
 
 /*  ========
-      Feed
-    ======== */
-.newentry-button{
-  margin-bottom: 30px;
-  border-color: #c4ebf1;
-  border-radius: 4px;
-  font-size: 20px;
-  background-color: #89C7e7;
-  font-family: 'Quicksand', sans-serif;
-}
-.entry-container{
-  /* border: solid 3px black; */
-  padding: 20px;
-  text-align: left;
-  max-width: 50%;
-  margin: 0 auto;
-}
-.entry-content{
-  border: 3px #ADD8E5 solid;
-  border-radius: 4px;
-  border-style: inset;
-  padding: 0 20px;
-  display: flex;
-  flex-direction: column;
-}
-.entry-buttons{
-  text-align: right;
-  padding-top: 5px;
-}
-.delete-button, .edit-button{
-  color: white;
-  border-color: #c4ebf1;
-  background-color: #89C7e7;
-  height: 30px;
-  border-radius: 4px;
-  font-size: 16px;
-  font-family: 'Quicksand', sans-serif;
-  font-weight:bolder;
-}
-.delete-button{
-  margin-right: 5px;
-}
-
-
-/*  ========
       Menu
     ======== */
 .directory{
@@ -103,21 +58,7 @@ font-size: 40px;
 /*  =================
       Media Queries
     ================= */
-@media screen and (max-width: 1025px) {
-  /* ===> Journal Feed <=== */
-  h1 {
-    font-size: 34px;
-  }
-  .newentry-button{
-    font-size: 16px;
-  }
-  .entry-container{
-    max-width: 70%;
-  }
-  .delete-button, .edit-button {
-    font-size: 14px;
-  }
-  
+@media screen and (max-width: 1025px) {  
   /* ===> Menu <=== */
 .directory-buttons{
   font-size: 22px;
