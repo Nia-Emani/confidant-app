@@ -1,4 +1,5 @@
 import { useHistory } from 'react-router-dom'
+import './LandingPage.css'
 // import { useState } from 'react'
 
 function LandingPage(props) {
