@@ -1,17 +1,17 @@
 import { useHistory } from 'react-router-dom'
-import {useState, useEffect} from 'react'
+import { useState, useEffect } from 'react'
 
 function LandingPage(props) {
-  let history=useHistory()
+  const history = useHistory()
   const [password, setPassword] = useState('')
   const [passwordConfirm, setPasswordConfirm] = useState('')
   const [message, setMessage] = useState("")
 
   const handleSubmit = event => {
-  event.preventDefault()
-  console.log("buttonClicked")
-  history.push('/new')
-}
+    event.preventDefault()
+    console.log("buttonClicked")
+    history.push('/new')
+  }
 
   return (
     <article className="content-container">

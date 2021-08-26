@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 
-function Menu(props) {
+function Menu() {
   return (
     <article className="directory">
       <h1>Menu</h1>
