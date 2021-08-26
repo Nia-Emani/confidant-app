@@ -228,12 +228,14 @@ font-size: 40px;
   .content-container {
     flex-direction: column;
     margin: 0 auto;
+    padding: 0 10px
   }
   .large-logo{
     width: 300px;
   }
   .signup-input{
     width: auto;
+    margin: 10px 0;
   }
   
   /* ===> New Entry Page <=== */
@@ -246,10 +248,13 @@ font-size: 40px;
   }
   .newentry-form{
     max-width: 65%;
+    align-items: center;
   }
-  .newdate{
+  .newdate, .newthought{
     align-self: center;
+    margin: 0 10px 10px;
   }
+
 
   /* ===> Journal Feed <=== */
   h1 {
