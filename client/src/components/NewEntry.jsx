@@ -2,6 +2,7 @@ import { useParams, useHistory } from 'react-router-dom'
 import axios from 'axios'
 import { useState, useEffect } from 'react'
 import { baseURL, config } from '../services'
+import './NewEntry.css'
 
 
 function NewEntry(props) {

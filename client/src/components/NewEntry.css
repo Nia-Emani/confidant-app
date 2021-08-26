@@ -1,0 +1,72 @@
+.greeting{
+  font-size: 30px;
+  padding-top: 100px;
+}
+.prompt{
+  font-size: 34px;
+}
+.newentry-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 45%;
+  margin: 50px auto;
+  min-height: 300px;
+  justify-content: space-evenly;
+}
+.newdate{
+  height: 40px;
+  width: 150px;
+  padding-left: 15px;
+  border: 2px lightgrey solid;
+  border-radius: 4px;
+  border-style: inset;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+}
+.newthought{
+  height: 100px;
+  padding-left: 15px;
+  border: 2px lightgrey solid;
+  border-radius: 4px;
+  border-style: inset;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+}
+.add-button{
+  height: 35px;
+  width: 150px;
+  align-self: center;
+  border-radius: 4px;
+  color: white;
+  border-color: #c4ebf1;
+  background-color: #89C7e7;
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 1025px) {
+  .greeting {
+    padding-top: 50px;
+    font-size: 24px;
+  }
+  .prompt {
+    font-size: 28px;
+  }
+  .newentry-form{
+    max-width: 65%;
+    align-items: center;
+  }
+  .newdate{
+    width: 35%;
+    align-self: center;
+    border: 2px lightgrey solid;
+    border-radius: 4px;
+  }
+  .newthought{
+    width: 100%;
+    align-self: center;
+    border: 2px lightgrey solid;
+    border-radius: 4px;
+  }
+}
