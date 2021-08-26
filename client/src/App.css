@@ -223,11 +223,17 @@ font-size: 40px;
   
   /* ===> Landing Page <=== */
   .nav-bar{
-    padding: 0 50px
+    padding: 0 5px
   }
   .content-container {
     flex-direction: column;
     margin: 0 auto;
+  }
+  .large-logo{
+    width: 300px;
+  }
+  .signup-input{
+    width: auto;
   }
   
   /* ===> New Entry Page <=== */
@@ -240,6 +246,9 @@ font-size: 40px;
   }
   .newentry-form{
     max-width: 65%;
+  }
+  .newdate{
+    align-self: center;
   }
 
   /* ===> Journal Feed <=== */
