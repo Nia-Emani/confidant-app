@@ -23,7 +23,6 @@ function LandingPage(props) {
       <div className="signup-container">
         <label htmlFor='sign up form' className='signup-label'>sign up</label>
         <form className="signup-form" onSubmit={handleSubmit}>
-        <h3>{message}</h3>
           <input
             id='name'
             className='signup-input'

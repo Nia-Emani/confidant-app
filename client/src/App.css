@@ -109,7 +109,7 @@ button{
 .newentry-form {
   display: flex;
   flex-direction: column;
-  max-width: 25%;
+  max-width: 45%;
   margin: 50px auto;
   min-height: 300px;
   justify-content: space-evenly;
@@ -134,14 +134,16 @@ button{
   font-size: 16px;
 }
 .add-button{
+  height: 35px;
+  width: 150px;
+  align-self: center;
+  border-radius: 4px;
   color: white;
   border-color: #c4ebf1;
   background-color: #89C7e7;
-  height: 30px;
-  border-radius: 4px;
   font-size: 16px;
   font-family: 'Quicksand', sans-serif;
-  font-weight:bolder;
+  font-weight: bolder;
 }
 
 /*  ========
@@ -192,10 +194,13 @@ button{
 /*  ========
       Menu
     ======== */
+.directory{
+  margin-top: 100px;
+}
 h1{
 font-size: 40px;
 }
-    .button-container{
+.button-container{
       display: flex;
       flex-direction: column;
       max-width: 200px;
@@ -214,3 +219,47 @@ font-size: 40px;
 /*  =================
       Media Queries
     ================= */
+@media screen and (max-width: 1025px) {
+  
+  /* ===> Landing Page <=== */
+  .nav-bar{
+    padding: 0 50px
+  }
+  .content-container {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  
+  /* ===> New Entry Page <=== */
+  .greeting {
+    padding-top: 50px;
+    font-size: 24px;
+  }
+  .prompt {
+    font-size: 28px;
+  }
+  .newentry-form{
+    max-width: 65%;
+  }
+
+  /* ===> Journal Feed <=== */
+  h1 {
+    font-size: 34px;
+  }
+  .newentry-button{
+    font-size: 16px;
+  }
+  .entry-container{
+    max-width: 70%;
+  }
+  .delete-button, .edit-button {
+    font-size: 14px;
+  }
+  
+  /* ===> Menu <=== */
+.directory-buttons{
+  font-size: 22px;
+  width: 175px;
+  align-self: center;
+}
+} 
