@@ -76,13 +76,14 @@ button{
 }
 .signup-input{
   height: 40px;
-  width: 300px;
+  width: 70%;
   border: 2px lightgrey solid;
   border-radius: 4px;
   border-style: inset;
   padding-left: 15px;
   font-family: 'Quicksand', sans-serif;
   font-size: 16px;
+  margin: 5px;
 }
 .start-button{
   color: white;
@@ -236,8 +237,10 @@ font-size: 40px;
     width: 300px;
   }
   .signup-input{
-    width: auto;
-    margin: 10px 0;
+    width: 100%;
+    align-self: center;
+    border: 2px lightgrey solid;
+    border-radius: 4px;
   }
   
   /* ===> New Entry Page <=== */
@@ -253,8 +256,10 @@ font-size: 40px;
     align-items: center;
   }
   .newdate, .newthought{
+    width: 100%;
     align-self: center;
-    margin: 0 10px 10px;
+    border: 2px lightgrey solid;
+    border-radius: 4px;
   }
 
 

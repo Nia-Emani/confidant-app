@@ -1,11 +1,11 @@
 import { useHistory } from 'react-router-dom'
-import { useState, useEffect } from 'react'
+// import { useState } from 'react'
 
 function LandingPage(props) {
   const history = useHistory()
-  const [password, setPassword] = useState('')
-  const [passwordConfirm, setPasswordConfirm] = useState('')
-  const [message, setMessage] = useState("")
+  // const [password, setPassword] = useState('')
+  // const [passwordConfirm, setPasswordConfirm] = useState('')
+  // const [message, setMessage] = useState("")
 
   const handleSubmit = event => {
     event.preventDefault()
