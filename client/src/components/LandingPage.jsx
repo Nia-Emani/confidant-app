@@ -1,8 +1,13 @@
 import { useHistory } from 'react-router-dom'
+import {useState, useEffect} from 'react'
 
 function LandingPage(props) {
   let history=useHistory()
-const handleSubmit = event => {
+  const [password, setPassword] = useState('')
+  const [passwordConfirm, setPasswordConfirm] = useState('')
+  const [message, setMessage] = useState("")
+
+  const handleSubmit = event => {
   event.preventDefault()
   console.log("buttonClicked")
   history.push('/new')
@@ -18,6 +23,7 @@ const handleSubmit = event => {
       <div className="signup-container">
         <label htmlFor='sign up form' className='signup-label'>sign up</label>
         <form className="signup-form" onSubmit={handleSubmit}>
+        <h3>{message}</h3>
           <input
             id='name'
             className='signup-input'

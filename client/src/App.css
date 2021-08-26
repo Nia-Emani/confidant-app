@@ -24,6 +24,7 @@ button{
 }
 .menu-link{
   padding-right: 15px;
+  padding-top: 10px;  
 }
 
 
@@ -79,12 +80,13 @@ button{
   border-style: inset;
   padding-left: 15px;
   font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
 }
 .start-button{
   color: white;
   border-color: #c4ebf1;
   background-color: #89C7e7;
-  height: 30px;
+  height: 40px;
   width: 200px;
   align-self: center;
   border-radius: 4px;
@@ -117,7 +119,7 @@ button{
   width: 300px;
   padding-left: 15px;
   font-family: 'Quicksand', sans-serif;
-  font-size: 13px;
+  font-size: 16px;
   font-style: italic;
 }
 .thought{
@@ -125,6 +127,7 @@ button{
   border-radius: 4px;
   font-family: 'Quicksand', sans-serif;
   padding-left: 15px;
+  font-size: 16px;
 }
 .add-button{
   color: white;
@@ -150,7 +153,9 @@ button{
 .entry-content{
   border: 3px #ADD8E5 solid;
   border-radius: 4px;
-  padding: 0 20px
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
 }
 .entry-buttons{
   text-align: right;
@@ -174,9 +179,9 @@ button{
 /*  ========
       Menu
     ======== */
-    h1{
-      font-size: 40px;
-    }
+h1{
+font-size: 40px;
+}
     .button-container{
       display: flex;
       flex-direction: column;
@@ -192,3 +197,9 @@ button{
       background-color: #89C7e7;
       font-family: 'Quicksand', sans-serif;
     }
+
+
+/*  ========
+      Menu
+    ======== */
+
