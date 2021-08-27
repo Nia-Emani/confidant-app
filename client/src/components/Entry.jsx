@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import { baseURL, config } from '../services'
 
 function Entry(props) {
-
   const { date, thought } = props.entry.fields
 
   const handleDelete = async () => {
@@ -25,7 +24,6 @@ function Entry(props) {
         </button>
       </article>
     </>
-
   )
 }
 

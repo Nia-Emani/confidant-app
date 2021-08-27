@@ -1,11 +1,11 @@
+import axios from 'axios'
 import { Link, Route } from 'react-router-dom'
 import { useState, useEffect } from 'react';
+import { baseURL, config } from './services'
 import './App.css';
 import EntryFeed from './components/EntryFeed';
 import NewEntry from './components/NewEntry'
 import Menu from './components/Menu'
-import axios from 'axios'
-import { baseURL, config } from './services'
 import LandingPage from './components/LandingPage';
 
 function App() {

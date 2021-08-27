@@ -20,7 +20,6 @@ font-size: 40px;
   font-family: 'Quicksand', sans-serif;
 }
 
-
 @media screen and (max-width: 1025px) {
   .directory-buttons{
     font-size: 22px;

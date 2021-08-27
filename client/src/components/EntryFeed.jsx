@@ -1,9 +1,8 @@
+import './EntryFeed.css'
 import Entry from './Entry'
 import { Link } from 'react-router-dom'
-import './EntryFeed.css'
 
 function EntryFeed(props) {
-
   return (
     <article>
       <h1>Journal Feed</h1>

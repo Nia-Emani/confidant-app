@@ -1,8 +1,8 @@
-import { useParams, useHistory } from 'react-router-dom'
-import axios from 'axios'
-import { useState, useEffect } from 'react'
-import { baseURL, config } from '../services'
 import './NewEntry.css'
+import axios from 'axios'
+import { baseURL, config } from '../services'
+import { useState, useEffect } from 'react'
+import { useParams, useHistory } from 'react-router-dom'
 
 
 function NewEntry(props) {
@@ -62,7 +62,6 @@ function NewEntry(props) {
         <button type="submit" className="add-button">add entry</button>
       </form>
     </article>
-
   )
 }
 
