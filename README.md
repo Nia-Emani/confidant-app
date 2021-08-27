@@ -83,13 +83,13 @@ createdTime: "2021-08-26T02:44:03.000Z"
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Proposal | H | 2hrs| 1.5hrs | 1.5hrs |
-| Airtable setup | H | 0.5hrs| 0.5hrs | 0.5hrs |
-| App component | H | 5hrs| --hrs | --hrs |
-| Component Steup | H | 10hrs| --hrs | --hrs |
-| Debugging | H | 7hrs| 2.5hrs | --hrs |
-| Testing | H | 5hrs| --hrs | --hrs |
-| CSS| H | 8hrs| --hrs | --hrs |
-| Total | H | 40hrs| --hrs | --hrs |
+| Airtable setup | H | 0.5hrs| 1.5hrs | 1.5hrs |
+| App component | H | 5hrs| 5hrs | 5hrs |
+| Component Steup | H | 10hrs| 14hrs | 14hrs |
+| Debugging | H | 7hrs| 3.5hrs | 3.5hrs |
+| Testing | H | 5hrs| 6hrs | 6hrs |
+| CSS| H | 8hrs| 10hrs | 10hrs |
+| Total | H | 37.5hrs| 41.5hrs | 41.5hrs |
 
 
 ## SWOT Analysis
