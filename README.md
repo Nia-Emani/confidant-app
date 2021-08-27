@@ -2,7 +2,7 @@
 
 ## Confidant
 
-[Confidant Site Placeholder](https://pantrymeals.surge.sh/)
+[Confidant App Site](https://confidant.netlify.app/)
 
 ## Project Description
 
