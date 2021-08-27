@@ -13,12 +13,12 @@ Confidant is a journaling app where users can jot down their thoughts. Journalin
 The wireframe displays the desktop view of each page of the app, as well as mobile-friendly version of each page. The homepage contains the brand logo, slogan, and a sign up form, as well as a menu, linking to the new entry form and the journal feed. The form has a submit button which also takes users to the new entry form. The add entry button on the new entry form submits the new entry to the journal feed. From there, users can make edits or delete entries.
 
 
-![image](https://user-images.githubusercontent.com/83891591/130286570-1cda2f11-1ce4-4046-bfaa-2c70bd3b607d.png)
+![image](https://user-images.githubusercontent.com/83891591/131069635-f0349497-c5c0-4f8a-830b-11d3492cec24.png)
 
 
 ## Component Hierarchy
 
-![image](https://user-images.githubusercontent.com/83891591/130286497-71926664-c0ba-4f7f-b1d4-a43d028fbd3d.png)
+![image](https://user-images.githubusercontent.com/83891591/131067978-2f04f2f2-589a-45c1-a354-bec534dc8ba3.png)
 
 
 ## API and Data Sample
@@ -26,9 +26,24 @@ The wireframe displays the desktop view of each page of the app, as well as mobi
 Confidant API https://api.airtable.com/v0/appLQZFM8iMgpmtxd/confidant
 
 ```json
+records: [
 {
-  placeholder  
+id: "rec8ebIFKGQ29dUn8",
+fields: {
+date: "August 20, 2021",
+thought: "So glad you're here! This is a safe space to jot down your thoughts. Happy journaling! -Your Confidant"
+},
+createdTime: "2021-08-26T02:43:38.000Z"
+},
+{
+id: "recwvvQtugyMyfrNm",
+fields: {
+date: "August 29, 2021",
+thought: "new thoughts"
+},
+createdTime: "2021-08-26T02:44:03.000Z"
 }
+]
 ```
 
 
@@ -55,10 +70,10 @@ Confidant API https://api.airtable.com/v0/appLQZFM8iMgpmtxd/confidant
 |  Day | Deliverable | Status
 |---|---| ---|
 |August 19| Prompt / Wireframes / Repository / Airtable Setup | Complete
-|August 20| Component Hierarchy / Project Approva | Incomplete
-|August 23 - 24| Build out components/ Finish MVP | Incomplete
-|August 25| CSS / Post MVP  | Incomplete
-|August 26| Confirm MVP Completion / Post MVPs  | Incomplete
+|August 20| Component Hierarchy / Project Approva | Complete
+|August 23 - 24| Build out components/ Finish MVP | Complete
+|August 25| CSS / Post MVP  | Complete
+|August 26| Confirm MVP Completion / Post MVPs  | Complete
 |August 6| Presentations | Incomplete
 
 
@@ -68,13 +83,13 @@ Confidant API https://api.airtable.com/v0/appLQZFM8iMgpmtxd/confidant
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Proposal | H | 2hrs| 1.5hrs | 1.5hrs |
-| Airtable setup | H | 0.5hrs| 0.5hrs | 0.5hrs |
-| App component | H | 5hrs| --hrs | --hrs |
-| Component Steup | H | 10hrs| --hrs | --hrs |
-| Debugging | H | 7hrs| 2.5hrs | --hrs |
-| Testing | H | 5hrs| --hrs | --hrs |
-| CSS| H | 8hrs| --hrs | --hrs |
-| Total | H | 40hrs| --hrs | --hrs |
+| Airtable setup | H | 0.5hrs| 1.5hrs | 1.5hrs |
+| App component | H | 5hrs| 5hrs | 5hrs |
+| Component Steup | H | 10hrs| 14hrs | 14hrs |
+| Debugging | H | 7hrs| 3.5hrs | 3.5hrs |
+| Testing | H | 5hrs| 6hrs | 6hrs |
+| CSS| H | 8hrs| 10hrs | 10hrs |
+| Total | H | 37.5hrs| 41.5hrs | 41.5hrs |
 
 
 ## SWOT Analysis
