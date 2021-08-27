@@ -15,7 +15,6 @@ function App() {
   useEffect(() => {
     const getEntries = async () => {
       const resp = await axios.get(baseURL, config)
-      console.log(resp.data.records)
       setEntries(resp.data.records)
     }
     getEntries()
