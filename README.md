@@ -18,7 +18,7 @@ The wireframe displays the desktop view of each page of the app, as well as mobi
 
 ## Component Hierarchy
 
-![image](https://user-images.githubusercontent.com/83891591/130286497-71926664-c0ba-4f7f-b1d4-a43d028fbd3d.png)
+![image](https://user-images.githubusercontent.com/83891591/131067978-2f04f2f2-589a-45c1-a354-bec534dc8ba3.png)
 
 
 ## API and Data Sample
