@@ -2,11 +2,11 @@
 
 ## Confidant
 
-[Confidant Site Placeholder](https://pantrymeals.surge.sh/)
+[Confidant App Site](https://confidant.netlify.app/)
 
 ## Project Description
 
-Confidant is a journaling app where users can jot down their thoughts anytime. Journaling can be a powerful tool to imporve mental health and Confidant is meant to be a convenient way to "make space in your brain" on-the-go. The menu, which is available on every page, allows users to create new entries and view their journal feed. Users also have the ability to edit or delete any past journal entries.
+Confidant is a journaling app where users can jot down their thoughts. Journaling can be a powerful tool to improve mental health and Confidant is meant to be a convenient way to "make some space in your brain" on-the-go. The menu, which is available on every page, allows users to create new entries and view their journal feed. Users also have the ability to edit or delete any past journal entries.
 
 
 ## Wireframes
