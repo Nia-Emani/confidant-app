@@ -6,7 +6,6 @@ function LandingPage() {
 
   const handleSubmit = event => {
     event.preventDefault()
-    console.log("buttonClicked")
     history.push('/new')
   }
 
