@@ -18,7 +18,6 @@ function NewEntry(props) {
     if (params.id && props.entries.length > 0) {
       const entryToEdit = props.entries.find(entry => params.id === entry.id)
       if (entryToEdit) {
-        console.log(entryToEdit)
         setDate(entryToEdit.fields.date)
         setThought(entryToEdit.fields.thought)
       }
