@@ -26,9 +26,24 @@ The wireframe displays the desktop view of each page of the app, as well as mobi
 Confidant API https://api.airtable.com/v0/appLQZFM8iMgpmtxd/confidant
 
 ```json
+records: [
 {
-  placeholder  
+id: "rec8ebIFKGQ29dUn8",
+fields: {
+date: "August 20, 2021",
+thought: "So glad you're here! This is a safe space to jot down your thoughts. Happy journaling! -Your Confidant"
+},
+createdTime: "2021-08-26T02:43:38.000Z"
+},
+{
+id: "recwvvQtugyMyfrNm",
+fields: {
+date: "August 29, 2021",
+thought: "new thoughts"
+},
+createdTime: "2021-08-26T02:44:03.000Z"
 }
+]
 ```
 
 
