@@ -70,7 +70,7 @@ createdTime: "2021-08-26T02:44:03.000Z"
 |  Day | Deliverable | Status
 |---|---| ---|
 |August 19| Prompt / Wireframes / Repository / Airtable Setup | Complete
-|August 20| Component Hierarchy / Project Approva | Complete
+|August 20| Component Hierarchy / Project Approval | Complete
 |August 23 - 24| Build out components/ Finish MVP | Complete
 |August 25| CSS / Post MVP  | Complete
 |August 26| Confirm MVP Completion / Post MVPs  | Complete
