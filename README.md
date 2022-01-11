@@ -74,7 +74,7 @@ createdTime: "2021-08-26T02:44:03.000Z"
 |August 23 - 24| Build out components/ Finish MVP | Complete
 |August 25| CSS / Post MVP  | Complete
 |August 26| Confirm MVP Completion / Post MVPs  | Complete
-|August 6| Presentations | Incomplete
+|August 6| Presentations | Complete
 
 
 
